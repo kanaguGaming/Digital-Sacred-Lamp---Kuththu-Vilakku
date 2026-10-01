@@ -1,6 +1,6 @@
 # Sacred Lamp (ESP32 Web Server)
 
-Sacred Lamp is an ESP32-based project that creates a standalone WiFi Access Point and hosts an interactive, beautifully animated web interface. Through the mobile-friendly web app, users can tap to "ignite" or "extinguish" five virtual traditional lamps, which seamlessly toggle five physical LEDs connected to the ESP32 hardware.
+Hey dragons, this Sacred Lamp is an ESP32-based project that creates a standalone WiFi Access Point and hosts an interactive, beautifully animated web interface. Through the mobile-friendly web app, users can tap to "ignite" or "extinguish" five virtual traditional lamps, which seamlessly toggle five physical LEDs connected to the ESP32 hardware.
 
 ## ✨ Features
 - **Standalone Network:** Operates as a WiFi Access Point (no external router required).
@@ -13,7 +13,8 @@ Sacred Lamp is an ESP32-based project that creates a standalone WiFi Access Poin
 - 1x ESP32 Development Board
 - 5x LEDs (Yellow or warm-white recommended to match the theme)
 - 5x Current-limiting resistors (e.g., 220Ω or 330Ω)
-- Breadboard and jumper wires
+
+you can also go with more powerful lights and control them through a relay module.
 
 ## 🔌 Pin Configuration
 Connect the anodes (long leg) of your LEDs to the following ESP32 GPIO pins (in series with a resistor), and the cathodes (short leg) to the ESP32's `GND` pin.
